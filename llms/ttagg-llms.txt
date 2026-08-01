@@ -1,0 +1,12 @@
+# TTAGG
+
+> TTAGG was a social media analytics startup founded in October 2011 in Fayetteville, Arkansas, and backed by 500 Global (500 Startups). It rebranded as DataRank in 2013, giving brand managers tools to monitor and rank conversations about their brands across social media, blogs, forums, and e-commerce sites. DataRank was acquired by Simply Measured in 2015, and Simply Measured was acquired by Sprout Social in 2017. The company no longer operates independently and publishes no public API: datarank.com redirects to sproutsocial.com and ttagg.com is a parked domain.
+
+## Company
+
+- [Website (redirects to Sprout Social)](https://datarank.com)
+- [DataRank on Wikipedia](https://en.wikipedia.org/wiki/DataRank)
+
+## APIs
+
+- None. No public API surface remains for TTAGG/DataRank; social analytics capabilities were absorbed into Simply Measured and then Sprout Social.

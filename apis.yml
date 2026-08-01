@@ -1,7 +1,24 @@
 aid: ttagg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ttagg.png
 name: TTAGG
-description: TTAGG is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: TTAGG was a social media analytics startup founded in October 2011 in
+  Fayetteville, Arkansas, and backed by 500 Global. It rebranded as DataRank in 2013,
+  providing brand managers with tools to monitor and rank conversations about their
+  brands and competitors across social media, blogs, forums, and e-commerce sites.
+  DataRank was acquired by Simply Measured in 2015, which was in turn acquired by
+  Sprout Social in 2017. The company no longer operates independently and publishes
+  no public API; datarank.com redirects to sproutsocial.com and ttagg.com is parked.
 url: https://raw.githubusercontent.com/api-evangelist/ttagg/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,18 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-successor: sprout-social
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Social Media
+- Analytics
+- Sentiment Analysis
+- Brand Monitoring
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ttagg-domain-security.yml
 - type: Website
   url: https://datarank.com
+- type: LLMsTxt
+  url: llms/ttagg-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

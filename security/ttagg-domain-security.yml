@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: datarank.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 14 21:46:14 2026 GMT
+  hsts: null
+domains:
+- domain: datarank.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject

@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+description: >-
+  Results of probing the /.well-known/ discovery surface for the only host in
+  apis.yml (https://datarank.com — TTAGG's post-2013 brand). Every path answers
+  301 to https://sproutsocial.com/ (DataRank was acquired by Simply Measured in
+  2015, which Sprout Social acquired in 2017), so no real documents exist and
+  none were saved. Recorded so re-runs know this surface is a redirect shell.
+hosts:
+  - host: https://datarank.com
+    redirects_to: https://sproutsocial.com/
+    documents:
+      - path: /.well-known/security.txt
+        status: 301
+      - path: /.well-known/openid-configuration
+        status: 301
+      - path: /.well-known/oauth-authorization-server
+        status: 301
+      - path: /.well-known/api-catalog
+        status: 301
+      - path: /.well-known/ai-plugin.json
+        status: 301
+      - path: /llms.txt
+        status: 404
