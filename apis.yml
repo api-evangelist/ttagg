@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://datarank.com', status: 301, note: 'declared website redirects to https://sproutsocial.com/ — a different registrable domain (datarank.com -> sproutsocial.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ttagg.png
 name: TTAGG
 description: TTAGG was a social media analytics startup founded in October 2011 in
