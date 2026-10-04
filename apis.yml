@@ -46,7 +46,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Social-Media
+- Social Media
 - Analytics
 - Sentiment Analysis
 - Brand Monitoring
@@ -58,6 +58,7 @@ tags_raw:
 - Sentiment Analysis
 - Brand Monitoring
 - Acquired
+- Social-Media
 apis: []
 maintainers:
 - FN: Kin Lane
